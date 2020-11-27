@@ -1,0 +1,16 @@
+POST : http://136.233.14.6/moodle/lib/ajax/service.php?sesskey=7GF2E5eRzo&info=core_calendar_get_calendar_monthly_view
+[{"index":0,"methodname":"core_calendar_get_calendar_monthly_view","args":{"year":2020,"month":11,"courseid":1,"categoryid":0,"includenavigation":true,"mini":true,"day":28}}]
+
+POST : http://136.233.14.6/moodle/lib/ajax/service.php?sesskey=7GF2E5eRzo&info=core_course_get_recent_courses
+[{"index":0,"methodname":"core_course_get_recent_courses","args":{"userid":"254","limit":10}}]
+
+POST : http://136.233.14.6/moodle/lib/ajax/service.php?sesskey=7GF2E5eRzo&info=core_fetch_notifications
+[{"index":0,"methodname":"core_fetch_notifications","args":{"contextid":2820}}]
+
+GET : http://136.233.14.6/moodle/lib/ajax/service-nologin.php?info=core_get_string&cachekey=1602682000&args=%5B%7B%22index%22%3A0%2C%22methodname%22%3A%22core_get_string%22%2C%22args%22%3A%7B%22stringparams%22%3A%5B%5D%2C%22lang%22%3A%22en%22%7D%7D%5D
+
+POST : http://136.233.14.6/moodle/lib/ajax/service.php?sesskey=7GF2E5eRzo&info=core_course_get_enrolled_courses_by_timeline_classification
+[{"index":0,"methodname":"core_course_get_enrolled_courses_by_timeline_classification","args":{"offset":0,"limit":0,"classification":"all","sort":"fullname","customfieldname":"","customfieldvalue":""}}]
+
+POST : http://136.233.14.6/moodle/lib/ajax/service.php?sesskey=7GF2E5eRzo&info=core_calendar_get_action_events_by_timesort
+[{"index":0,"methodname":"core_calendar_get_action_events_by_timesort","args":{"limitnum":6,"timesortfrom":1606501800,"timesortto":1607106600,"limittononsuspendedevents":true}}]
